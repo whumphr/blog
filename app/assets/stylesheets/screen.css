@@ -66,15 +66,13 @@ article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,sec
 }
 
 html {
-  background:#d3dd8a;
-  -moz-background-size:80px 80px;
-  -webkit-background-size:80px 80px;
-  -o-background-size:80px 80px;
-  background-size:80px 80px;
-  background-image:-webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(25%, rgba(255,255,255,0.1)), color-stop(25%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,0)),
-   color-stop(50%, rgba(255,255,255,0.1)), color-stop(75%, rgba(255,255,255,0.1)), color-stop(75%, rgba(255,255,255,0)), color-stop(100%, rgba(255,255,255,0)));
-  background-image:-moz-linear-gradient(left top, rgba(255,255,255,0.1) 25%,rgba(255,255,255,0) 25%,rgba(255,255,255,0) 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0) 75%,rgba(255,255,255,0));background-image:linear-gradient(left top, rgba(255,255,255,0.1) 25%,rgba(255,255,255,0) 25%,rgba(255,255,255,0) 50%,rgba(255,255,255,0.1) 50%,rgba(255,255,255,0.1) 75%,rgba(255,255,255,0) 75%,rgba(255,255,255,0))
+  background: url(trianglify.svg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 body {
   font-family:"Helvetica Neue", Helvetica, Arial, sans;
   background:#fff;
@@ -105,6 +103,7 @@ body {
   background-clip:padding-box
 }
 
+/*
 body:before {
   content:" ";
   z-index:-2;
@@ -136,7 +135,7 @@ body:before {
   -ms-transform:rotate(-2deg);
   transform:rotate(-2deg)
 }
-
+*/
 body:after {
   content:" ";
   position:absolute;
@@ -230,9 +229,9 @@ h1 {
   -ms-border-top-right-radius:6px;
   -khtml-border-top-right-radius:6px;
   border-top-right-radius:6px;
-  background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #42678d), color-stop(100%, #223447));
-  background-image:-moz-linear-gradient(#42678d,#223447);
-  background-image:linear-gradient(#42678d,#223447);
+  background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4aad60), color-stop(100%, #0B6623));
+  background-image:-moz-linear-gradient(#4aad60,#0B6623);
+  background-image:linear-gradient(#4aad60,#0B6623);
   -moz-box-shadow:rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;
   -webkit-box-shadow:rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;
   -o-box-shadow:rgba(255, 255, 255, 0.15) 0 1px inset, white 0 1px;
@@ -395,7 +394,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #articles li:hover {
-  background-color: #2980b9;
+  background-color: #B6DEC1;
 }
 
 #articles li:last-child {
@@ -411,14 +410,14 @@ h1,h2,h3,h4,h5,h6 {
 #articles li > a:first-child {
   font-weight:bold;
   display:block;
-  color:#59372d;
+  color:#025718;
   text-decoration: none;
   margin-left: 10px;
   padding-bottom:.1em
 }
 
 #articles li > a:first-child:hover {
-  color: #ffffff;
+  color: #000000;
 }
 
 
