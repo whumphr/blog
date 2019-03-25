@@ -190,8 +190,8 @@ p.flash {
   -ms-box-sizing:border-box;
   box-sizing:border-box;
   background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(49,145,72,0.4)), color-stop(100%, rgba(12,103,36,0.6)));
-  background-image:-moz-linear-gradient(rgba(49,145,72),rgba(12,103,36));
-  background-image:linear-gradient(rgba(49,145,72),rgba(12,103,36));
+  background-image:-moz-linear-gradient(rgba(49,145,72,1),rgba(12,103,36,1));
+  background-image:linear-gradient(rgba(49,145,72,1),rgba(12,103,36,1));
   border:3px solid rgba(255, 255, 255, 0.5);
   -moz-background-clip:padding;
   -webkit-background-clip:padding;
